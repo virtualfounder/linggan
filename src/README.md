@@ -18,11 +18,16 @@ actions:
   - text: 文档
     link: ./guide/
 
+  - text: 札记
+    link: ./guide/札记/
+
   - text: 编程词典
     link: ./编程词典/
 
   - text: 自学之路
     link: ./自学之路/
+
+  
 
 highlights:
   - header: 易于安装
