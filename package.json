@@ -5,16 +5,16 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress-vite build src",
-    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
-    "docs:dev": "vuepress-vite dev src",
+    "docs:build": "vuepress-vite build blog",
+    "docs:clean-dev": "vuepress-vite dev blog --clean-cache",
+    "docs:dev": "vuepress-vite dev blog",
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.9",
     "vue": "^3.4.21",
     "vuepress": "2.0.0-rc.9",
-    "vuepress-theme-hope": "2.0.0-rc.33"
+    "vuepress-theme-hope": "2.0.0-rc.36"
   },
   "dependencies": {
     "@vue/repl": "^4.1.1",

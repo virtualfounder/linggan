@@ -6,7 +6,9 @@
   },
   "include": [
     "src/.vuepress/**/*.ts",
-    "src/.vuepress/**/*.vue"
+    "src/.vuepress/**/*.vue",
+    "blog/.vuepress/**/*.ts",
+    "blog/.vuepress/**/*.vue"
   ],
   "exclude": [
     "node_modules"
