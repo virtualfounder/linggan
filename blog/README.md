@@ -38,7 +38,7 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: <a href="https://beian.miit.gov.cn/">滇ICP备2024019755号-2</a> | <img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" style="width:1rem;vertical-align:middle;"> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521">滇公网安备53030202000521</a> 
+footer: <a href="https://beian.miit.gov.cn/">滇ICP备2024019755号-2</a> | <img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" > <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521">滇公网安备53030202000521</a> 
 
 copyright: 版权所有 © 2024-present 虚拟发现
 ---
