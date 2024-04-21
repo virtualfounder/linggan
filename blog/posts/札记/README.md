@@ -1,13 +1,12 @@
 ---
-icon: pen-to-square
-date: 2022-01-01
+title: 札记
+index: false
+icon: laptop-code
 category:
-  - 苹果
-tag:
-  - 红
-  - 大
-  - 圆
+  - 使用指南
 ---
+
+<Catalog />
 
 ## 主要内容
 <!-- more -->

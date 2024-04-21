@@ -1,11 +1,12 @@
-# 项目实战专栏
+---
+title: 项目实战
+index: false
+icon: laptop-code
+category:
+  - 使用指南
+---
 
-
-
-[项目](项目.md)
-
-[微信小程序](微信小程序AI.md)
-
+<Catalog />
 
 
 
