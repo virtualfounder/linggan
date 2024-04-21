@@ -1,4 +1,15 @@
-# 数据结构和算法学习路线 by 灵感虚拟发现现实
+---
+icon: pen-to-square
+date: 2022-01-01
+category:
+  - 苹果
+tag:
+  - 红
+  - 大
+  - 圆
+---
+<!-- more -->
+## 数据结构和算法学习路线 by 灵感虚拟发现现实
 
 > 本文作者：[灵感虚拟发现现实](https://www.zzxxccvv.xyz)
 >

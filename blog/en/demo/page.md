@@ -113,7 +113,7 @@ The theme contains some useful components. Here are some examples:
 - A card:
 
   ```component VPCard
-  title: Mr.Hope
+  title: 虚拟发现
   desc: Where there is light, there is hope
   logo: https://mister-hope.com/logo.svg
   link: https://mister-hope.com

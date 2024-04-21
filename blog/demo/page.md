@@ -117,7 +117,7 @@ const MyComponent = defineComponent({
 - 一个卡片:
 
   ```component VPCard
-  title: Mr.Hope
+  title: 虚拟发现
   desc: Where there is light, there is hope
   logo: https://mister-hope.com/logo.svg
   link: https://mister-hope.com

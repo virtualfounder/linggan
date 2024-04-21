@@ -170,7 +170,7 @@ npm i -D vuepress-theme-hope
 #### 组件
 
 ```component VPCard
-title: Mr.Hope
+title: 虚拟发现
 desc: Where there is light, there is hope
 logo: https://mister-hope.com/logo.svg
 link: https://mister-hope.com
@@ -187,7 +187,7 @@ background: rgba(253, 230, 138, 0.15)
 
 #### 样式化
 
-向 Mr.Hope 捐赠一杯咖啡。 _Recommended_
+向 虚拟发现 捐赠一杯咖啡。 _Recommended_
 
 - [查看详情](https://theme-hope.vuejs.press/zh/guide/markdown/stylize.html)
 

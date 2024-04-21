@@ -27,7 +27,8 @@ star: true
 # 你可以自定义版权信息
 copyright: 无版权
 ---
-
+## 代码词典
+<!-- more -->
 1. POJO（Plain Ordinary Java Object）：简单的Java对象，实际就是普通JavaBeans，是为了避免和EJB混淆所创造的简称。
 2. PO（Persistent Object）：持久对象，在o/r映射的时候出现的概念，如果没有o/r映射，就没有这个概念。PO中应该不包含任何对数据库的操作。
 3. VO（Value Object）：值对象，通常用于业务层之间的数据传递，和PO一样也是仅仅包含数据而已。
