@@ -1,3 +1,0 @@
-import comp from "X:/nodejs课程三套代码/nodejs后端课程代码(旅游小程序)/hope/linggan/src/.vuepress/.temp/pages/demo/encrypt.html.vue"
-const data = JSON.parse("{\"path\":\"/demo/encrypt.html\",\"title\":\"密码加密的文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"lock\",\"category\":[\"使用指南\"],\"tag\":[\"加密\"],\"feed\":false,\"seo\":false,\"head\":[]},\"headers\":[],\"git\":{\"createdTime\":1712929209000,\"updatedTime\":1712929209000,\"contributors\":[{\"name\":\"virtualfound\",\"email\":\"2849492659@qq.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.51,\"words\":154},\"filePathRelative\":\"demo/encrypt.md\",\"localizedDate\":\"2024年4月12日\"}")
-export { comp, data }
