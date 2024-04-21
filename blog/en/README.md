@@ -16,43 +16,44 @@ head:
 heroFullScreen: true   
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: project name
+    desc: project detailed description
+    link: https://your.project.link
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: link name
+    desc: link detailed description
+    link: https://link.address
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: book name
+    desc: Detailed description of the book
+    link: https://link.to.your.book
 
   - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: article name
+    desc: Detailed description of the article
+    link: https://link.to.your.article
 
   - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: friend name
+    desc: Detailed description of friend
+    link: https://link.to.your.friend
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+    name: custom item
+    desc: Detailed description of this custom item
+    link: https://link.to.your.friend
 
 # footer: <a href="https://beian.miit.gov.cn/">滇ICP备2024019755号-2</a> | <img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" > <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521">滇公网安备53030202000521</a> 
 footer: <a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">滇ICP备2024019755号-2</a> / <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;"><img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" style="width:1rem;vertical-align:middle;"> 滇公网安备53030202000521</a> | <a href="/about/site.html">关于网站</a>
 
 copyright: 版权所有 © 2024-present 虚拟发现
 
-
 ---
 
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
+This is a blog home page demo.
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
+To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
+
+For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home/).
