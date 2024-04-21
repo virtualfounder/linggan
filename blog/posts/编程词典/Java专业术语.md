@@ -1,4 +1,32 @@
-# Java专业术语有很多，以下是一些常见的术语及其解释
+---
+# 这是文章的标题
+title: 代码词典
+# # 你可以自定义封面图片
+# cover: /assets/images/cover1.jpg
+# 这是页面的图标
+icon: file
+# 这是侧边栏的顺序
+order: 3
+# 设置作者
+author:虚拟发现
+# 设置写作时间
+date: 2020-01-01
+# 一个页面可以有多个分类
+category:
+  - 编程词典
+# 一个页面可以有多个标签
+tag:
+  - 代码词典
+  - 使用指南
+# 此页面会在文章列表置顶
+sticky: false
+# 此页面会出现在星标文章中
+star: true
+# 你可以自定义页脚
+# footer: 这是测试显示的页脚
+# 你可以自定义版权信息
+copyright: 无版权
+---
 
 1. POJO（Plain Ordinary Java Object）：简单的Java对象，实际就是普通JavaBeans，是为了避免和EJB混淆所创造的简称。
 2. PO（Persistent Object）：持久对象，在o/r映射的时候出现的概念，如果没有o/r映射，就没有这个概念。PO中应该不包含任何对数据库的操作。

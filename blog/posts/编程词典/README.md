@@ -7,9 +7,9 @@ category:
 ---
 
 <Catalog />
-- [词典](词典.md)
+<!-- - [词典](词典.md)
 
-- [Java专业术语](Java专业术语.md)
+<!-- - [Java专业术语](Java专业术语.md) --> 
 <!-- ---
 title: Bar 功能
 icon: lightbulb
