@@ -5,6 +5,7 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 export default hopeTheme({
+  
   hostname: "https://mister-hope.github.io",
 
   author: {
@@ -110,6 +111,8 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["1234"],
       "/en/demo/encrypt.html": ["1234"],
+      "/posts/札记/20240423.html": ["1234"],
+      
     },
   },
 
@@ -327,4 +330,5 @@ pwa: {
  },
 },
 },
+fullscreen: true,
 });

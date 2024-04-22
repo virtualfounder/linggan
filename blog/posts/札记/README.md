@@ -1,7 +1,7 @@
 ---
 title: 札记
 index: false
-icon: laptop-code
+icon: book
 category:
   - 札记
 ---
