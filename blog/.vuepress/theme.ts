@@ -109,10 +109,10 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/en/demo/encrypt.html": ["1234"],
-      "/posts/札记/20240423.html": ["1234"],
-      
+      "/demo/encrypt.html": ["tyu357"],
+      "/en/demo/encrypt.html": ["tyu357"],
+      "/posts/札记/20240423.html": ["tyu357"],
+      "/posts/札记/20240425.html": ["tyu357"],
     },
   },
 
