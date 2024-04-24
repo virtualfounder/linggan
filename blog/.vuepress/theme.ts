@@ -130,10 +130,12 @@ export default hopeTheme({
       serverURL: "https://waline-comment.vuejs.press",
     },
     docsearch:({
-      appId: "<APP_ID>",
-      apiKey: "<API_KEY>",
-      indexName: "<INDEX_NAME>",
+      appId: "6G2Q2UCYVT",
 
+      apiKey: "2fbcc1ba98f2b57af8bd6c27b671c9d2",
+  
+      indexName: "zzxxccvv",
+  
       locales: {
         "/": {
           placeholder: "搜索文档",
