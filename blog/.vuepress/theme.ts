@@ -113,6 +113,7 @@ export default hopeTheme({
       "/en/demo/encrypt.html": ["tyu357"],
       "/posts/札记/20240423.html": ["tyu357"],
       "/posts/札记/20240425.html": ["tyu357"],
+      "/posts/札记/20240426.html": ["tyu357"],
     },
   },
 
