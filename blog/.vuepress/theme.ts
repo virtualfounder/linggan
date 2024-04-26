@@ -2,7 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+
 
 export default hopeTheme({
   
@@ -190,7 +190,10 @@ export default hopeTheme({
       },
     }),
     components: {
-      components: ["Badge", "VPCard",
+      components: [
+
+        
+        "Badge", "VPCard",
       "ArtPlayer",
       
       "BiliBili",
