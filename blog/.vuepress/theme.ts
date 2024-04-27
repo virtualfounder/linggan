@@ -66,7 +66,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">滇ICP备2024019755号-2</a> / <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;"><img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" style="width:1rem;vertical-align:middle;"> 滇公网安备53030202000521</a> | <a href="/about/site.html">关于网站</a>',
+      footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">滇ICP备2024019755号-2</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;"><img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" style="width:1rem;vertical-align:middle;"> 滇公网安备53030202000521</a> | <a href="/about/site.html">关于网站</a>',
 
       displayFooter: true,
 
@@ -114,6 +114,9 @@ export default hopeTheme({
       "/posts/札记/20240423.html": ["tyu357"],
       "/posts/札记/20240425.html": ["tyu357"],
       "/posts/札记/20240426.html": ["tyu357"],
+      "/posts/books/三体一.html": ["tyu357三体"],
+      "/posts/books/三体二.html": ["tyu357三体"],
+      "/posts/books/三体三.html": ["tyu357三体"],
     },
   },
 

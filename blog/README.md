@@ -18,7 +18,7 @@ projects:
   - icon: project
     name: 项目名称
     desc: 项目详细描述
-    link: https://你的项目链接
+    link: ""
 
   - icon: link
     name: 链接名称
@@ -46,7 +46,7 @@ projects:
     link: https://你的自定义链接
 
 # footer: <a href="https://beian.miit.gov.cn/">滇ICP备2024019755号-2</a> | <img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" > <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521">滇公网安备53030202000521</a> 
-footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">滇ICP备2024019755号-2</a> / <a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;"><img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" style="width:1rem;vertical-align:middle;"> 滇公网安备53030202000521</a> | <a href="/about/site.html">关于网站</a>'
+footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;">滇ICP备2024019755号-2</a>|<a href="https://beian.mps.gov.cn/#/query/webSearch?code=53030202000521" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;"><img src="https://aigc456-1322485937.cos.ap-chengdu.myqcloud.com/load/202404062058072.png" style="width:1rem;vertical-align:middle;"> 滇公网安备53030202000521</a> | <a href="/blog/intro.html">关于网站</a>'
 
 copyright: 版权所有 © 2024-present 虚拟发现
 
