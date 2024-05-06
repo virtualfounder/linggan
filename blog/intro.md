@@ -1,8 +1,4 @@
 ---
-date: 2024-04-21
----
-
----
 icon: circle-info
 # cover: /assets/images/cover3.jpg
 ---

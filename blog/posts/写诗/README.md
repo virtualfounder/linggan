@@ -1,8 +1,5 @@
 ---
 date: 2024-04-12
----
-
----
 title: 写诗
 index: false
 icon:  pen

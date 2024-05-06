@@ -1,8 +1,4 @@
 ---
-date: 2024-04-12
----
-
----
 title: 一本书
 index: false
 icon:  book

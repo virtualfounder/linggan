@@ -1,8 +1,4 @@
 ---
-date: 2024-04-12
----
-
----
 title: "202405"
 index: false
 icon: book
