@@ -1,9 +1,17 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { appendDatePlugin } from "@vuepress/plugin-append-date";
+import { oml2dPlugin } from "vuepress-plugin-oh-my-live2d";
+import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension';
+import { netabareSwitchPlugin } from 'vuepress-plugin-netabare-switch';
+
 const author = "灵感虚拟发现现实";
 const domain = "https://www.zzxxccvv.xyz";
 const tags = ["程序员", "编程", "计算机"];
+
+
 export default defineUserConfig({
+ 
   base: "/",
 
   locales: {
@@ -24,4 +32,25 @@ export default defineUserConfig({
 
   // Enable it with pwa
    shouldPrefetch: false,
+   
+   plugins: [
+    // netabareSwitchPlugin(),
+    removeHtmlExtensionPlugin(),
+    appendDatePlugin(),
+    oml2dPlugin({
+      // 在这里配置选项
+      models: [
+        {
+          path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json',
+          scale: 0.12,
+          position: [-10, 50],
+          stageStyle: {
+            width: 350
+          }
+        }
+      ]
+    }),
+
+ 
+   ],
 });

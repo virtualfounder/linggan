@@ -2,15 +2,15 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
-
+import { appendDatePlugin } from '@vuepress/plugin-append-date'
 
 export default hopeTheme({
   
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://zzxxccvv.xyz",
 
   author: {
     name: "虚拟发现",
-    url: "https://mister-hope.com",
+    url: "https://zzxxccvv.xyz",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -23,37 +23,37 @@ export default hopeTheme({
 
   blog: {
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      Baidu: "https://baidu.com",
+      BiliBili: "https://bilibili.com",
+      Bitbucket: "https://zzxxccvv.xyz",
+      Dingding: "https://zzxxccvv.xyz",
+      Discord: "https://zzxxccvv.xyz",
+      Dribbble: "https://zzxxccvv.xyz",
+      Email: "https://zzxxccvv.xyz",
+      Evernote: "https://zzxxccvv.xyz",
+      Facebook: "https://zzxxccvv.xyz",
+      Flipboard: "https://zzxxccvv.xyz",
+      Gitee: "https://zzxxccvv.xyz",
+      GitHub: "https://zzxxccvv.xyz",
+      Gitlab: "https://zzxxccvv.xyz",
+      Gmail: "https://zzxxccvv.xyz",
+      Instagram: "https://zzxxccvv.xyz",
+      Lark: "https://zzxxccvv.xyz",
+      Lines: "https://zzxxccvv.xyz",
+      Linkedin: "https://zzxxccvv.xyz",
+      Pinterest: "https://zzxxccvv.xyz",
+      Pocket: "https://zzxxccvv.xyz",
+      QQ: "https://zzxxccvv.xyz",
+      Qzone: "https://zzxxccvv.xyz",
+      Reddit: "https://zzxxccvv.xyz",
+      Rss: "https://zzxxccvv.xyz",
+      Steam: "https://zzxxccvv.xyz",
+      Twitter: "https://zzxxccvv.xyz",
+      Wechat: "https://zzxxccvv.xyz",
+      Weibo: "https://zzxxccvv.xyz",
+      Whatsapp: "https://zzxxccvv.xyz",
+      Youtube: "https://zzxxccvv.xyz",
+      Zhihu: "https://zzxxccvv.xyz",
       MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
     },
   },
@@ -126,6 +126,7 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
+  
     
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
@@ -195,11 +196,9 @@ export default hopeTheme({
     }),
     components: {
       components: [
-
-        
-        "Badge", "VPCard",
+      "Badge", 
+      "VPCard",
       "ArtPlayer",
-      
       "BiliBili",
       "CodePen",
       "PDF",
@@ -215,6 +214,7 @@ export default hopeTheme({
 
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
+     
       align: true,
       attrs: true,
       codetabs: true,
@@ -225,6 +225,7 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       mark: true,
+    
       stylize: [
         {
           matcher: "Recommended",
