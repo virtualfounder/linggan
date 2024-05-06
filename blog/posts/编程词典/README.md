@@ -1,6 +1,6 @@
 ---
 date: 2024-04-12
-title: 主要功能与配置演示
+title: Java专业术语
 index: false
 icon: laptop-code
 category:

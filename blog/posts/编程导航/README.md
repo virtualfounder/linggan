@@ -1,7 +1,7 @@
 ---
 date: 2024-04-12
 
-title: 主要功能与配置演示
+title: 多个主题的学习路线
 index: false
 icon: laptop-code
 category:

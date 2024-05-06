@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 编程分享
+title: 计算机领域的通用基础知识
 # # 你可以自定义封面图片
 # cover: /assets/images/cover1.jpg
 # 这是页面的图标
