@@ -36,7 +36,7 @@ export default defineUserConfig({
    plugins: [
     // netabareSwitchPlugin(),
     removeHtmlExtensionPlugin(),
-    // appendDatePlugin(),
+     appendDatePlugin(),
     oml2dPlugin({
       // 在这里配置选项
       dockedPosition:"right",
