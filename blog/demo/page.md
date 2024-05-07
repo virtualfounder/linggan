@@ -30,10 +30,10 @@ star: true
 copyright: 无版权
 ---
 
-`more` 注释之前的内容被视为文章摘要。
+
 
 <!-- more -->
-
+`more` 注释之前的内容被视为文章摘要。
 ## 页面标题
 
 The first H1 title in Markdown will be regarded as page title.
