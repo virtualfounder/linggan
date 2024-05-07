@@ -39,14 +39,15 @@ export default defineUserConfig({
     // appendDatePlugin(),
     oml2dPlugin({
       // 在这里配置选项
+      dockedPosition:"right",
       models: [
         {
-          path: 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/Live2D/Senko_Normals/senko.model3.json',
-          scale: 0.12,
-          position: [-10, 50],
-          stageStyle: {
-            width: 350
-          }
+          "path": "https://model.oml2d.com/Pio/model.json",
+  "scale": 0.4,
+  "position": [0, 50],
+  "stageStyle": {
+    "height": 300
+  }
         }
       ]
     }),

@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: C++ 学习路线 
+title: Cplus学习路线 
 # 你可以自定义封面图片
 # cover: /assets/images/cover1.jpg
 # 这是页面的图标
@@ -24,7 +24,7 @@ sticky: false
 star: true
 ---
 
-
+<!-- more -->
 
 # C++ 学习路线 by 灵感虚拟发现现实
 

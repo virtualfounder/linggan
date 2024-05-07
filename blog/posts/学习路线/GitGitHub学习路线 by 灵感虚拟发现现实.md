@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: Git & GitHub 学习路线
+title: Git学习路线
 # 你可以自定义封面图片
 # cover: /assets/images/cover1.jpg
 # 这是页面的图标
@@ -23,10 +23,10 @@ sticky: false
 # 此页面会出现在星标文章中
 star: true
 ---
-
-
-# Git & GitHub 学习路线 by 灵感虚拟发现现实
 <!-- more -->
+
+## Git & GitHub 学习路线 by 灵感虚拟发现现实
+
 > 本文作者：[灵感虚拟发现现实](https://www.zzxxccvv.xyz)
 >
 > 本站地址：[https://www.zzxxccvv.xyz](https://www.zzxxccvv.xyz)

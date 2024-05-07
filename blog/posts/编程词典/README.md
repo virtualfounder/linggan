@@ -1,6 +1,6 @@
 ---
 date: 2024-04-12
-title: Java专业术语
+title: 编程词典
 index: false
 icon: laptop-code
 category:

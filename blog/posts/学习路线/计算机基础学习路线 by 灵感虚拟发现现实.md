@@ -25,12 +25,13 @@ star: true
 # 你可以自定义页脚
 # footer: 这是测试显示的页脚
 # 你可以自定义版权信息
-copyright: 无版权
+copyright: 虚拟发现
 ---
 
+<!-- more -->
 
 ## 计算机基础学习路线 by 灵感虚拟发现现实
-<!-- more -->
+
 > 本文作者：[灵感虚拟发现现实](https://www.zzxxccvv.xyz)
 >
 > 本站地址：[https://www.zzxxccvv.xyz](https://www.zzxxccvv.xyz)
