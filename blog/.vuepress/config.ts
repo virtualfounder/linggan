@@ -3,7 +3,7 @@ import theme from "./theme.js";
 import { appendDatePlugin } from "@vuepress/plugin-append-date";
 import { oml2dPlugin } from "vuepress-plugin-oh-my-live2d";
 import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension';
-import { netabareSwitchPlugin } from 'vuepress-plugin-netabare-switch';
+// import { netabareSwitchPlugin } from 'vuepress-plugin-netabare-switch';
 
 const author = "灵感虚拟发现现实";
 const domain = "https://www.zzxxccvv.xyz";
@@ -34,9 +34,9 @@ export default defineUserConfig({
    shouldPrefetch: false,
    
    plugins: [
-    // netabareSwitchPlugin(),
+  //  netabareSwitchPlugin(),
     removeHtmlExtensionPlugin(),
-    // appendDatePlugin(),
+     appendDatePlugin(),
     oml2dPlugin({
       // 在这里配置选项
       dockedPosition:"right",
