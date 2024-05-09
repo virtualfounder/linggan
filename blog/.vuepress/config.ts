@@ -35,7 +35,7 @@ export default defineUserConfig({
    
    plugins: [
   //  netabareSwitchPlugin(),
-    removeHtmlExtensionPlugin(),
+    // removeHtmlExtensionPlugin(),
      appendDatePlugin(),
     oml2dPlugin({
       // 在这里配置选项

@@ -15,7 +15,27 @@ export const zhSidebar = sidebar({
       icon: "book",
       prefix: "posts/",
       children: "structure",
+      
     },
+    
+    // {
+    //   text: "札记",
+    //   icon: "book",
+    //   prefix: "posts/札记",
+    //   children: "structure",
+    // },
+    // {
+    //   text: "编程分享",
+    //   icon: "book",
+    //   prefix: "posts/编程分享",
+    //   children: "structure",
+    // },
+    // {
+    //   text: "产品服务",
+    //   icon: "book",
+    //   prefix: "posts/产品服务",
+    //   children: "structure",
+    // },
     "intro",
     {
       text: "幻灯片",
