@@ -136,11 +136,11 @@ export default hopeTheme({
       serverURL: "https://waline-comment.vuejs.press",
     },
     docsearch:({
-      appId: "6G2Q2UCYVT",
+      appId: "IK6QPE75M4",
 
-      apiKey: "32c064acd39ed1dd1731ccd5bb1f9988",
+      apiKey: "016992c0cde2ba4a40b73767a31aab64",
       
-      indexName: "zzxxccvv",
+      indexName: "dev_zzxxccvv",
   
       locales: {
         "/": {
