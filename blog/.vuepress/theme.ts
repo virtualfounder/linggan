@@ -136,11 +136,11 @@ export default hopeTheme({
       serverURL: "https://waline-comment.vuejs.press",
     },
     docsearch:({
-      appId: "IK6QPE75M4",
+      appId: "G3FD8QYKBY",
 
-      apiKey: "016992c0cde2ba4a40b73767a31aab64",
+      apiKey: "2e6202a47627bdf54a3c2452765c1fa9",
       
-      indexName: "dev_zzxxccvv",
+      indexName: "zzxxccvv",
   
       locales: {
         "/": {
@@ -225,7 +225,7 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       mark: true,
-    
+      spoiler: true,
       stylize: [
         {
           matcher: "Recommended",
