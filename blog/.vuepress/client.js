@@ -3,7 +3,9 @@ import FlipClock from "./components/FlipClock.vue";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 
+
 export default defineClientConfig({
+
   setup() {
     setupRunningTimeFooter(
       new Date("2024-01-01"),
@@ -13,10 +15,12 @@ export default defineClientConfig({
        
       },
       true,
+      
     );
     setupTransparentNavbar();
   },
   enhance: ({ app, router, siteData }) => {
     app.component("FlipClock", FlipClock);
   },
+ 
 });

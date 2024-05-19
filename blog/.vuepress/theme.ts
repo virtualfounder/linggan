@@ -2,8 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
-import { appendDatePlugin } from '@vuepress/plugin-append-date'
-
+;
 export default hopeTheme({
   
   hostname: "https://zzxxccvv.xyz",
@@ -122,12 +121,20 @@ export default hopeTheme({
   },
 
   // enable it to preview all changes in time
-  hotReload: true,
+  hotReload: false,
 
   plugins: {
     blog: true,
-  
     
+    watermark:{
+      enabled:false,
+    },
+    copyright:{
+      global:true,
+      maxLength:100,
+
+
+    },
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
@@ -202,7 +209,7 @@ export default hopeTheme({
       "BiliBili",
       "CodePen",
       "PDF",
-      // "Replit",
+    
       "Share",
       "SiteInfo",
       "StackBlitz",
@@ -214,6 +221,7 @@ export default hopeTheme({
 
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
+      
       footnote: true,
       align: true,
       attrs: true,
@@ -273,10 +281,10 @@ export default hopeTheme({
  },
 
  // 在启用之前安装 reveal.js
- // revealJs: {
- //   plugins: ["highlight", "math", "search", "notes", "zoom"],
- // },
+//  revealJs: {
+//   plugins: ["highlight", "math", "search", "notes", "zoom"],
 
+//  },
  // 在启用之前安装 @vue/repl
  vuePlayground: true,
 
@@ -288,7 +296,7 @@ export default hopeTheme({
 pwa: {
  favicon: "/favicon.ico",
  cacheHTML: true,
-// cachePic: true,
+ cacheImage: true,
  appendBase: true,
  apple: {
    icon: "/assets/icon/apple-icon-152.png",
@@ -342,4 +350,6 @@ pwa: {
 },
 },
 fullscreen: true,
-});
+},
+{ custom: true },
+);

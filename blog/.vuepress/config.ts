@@ -3,6 +3,7 @@ import theme from "./theme.js";
 import { appendDatePlugin } from "@vuepress/plugin-append-date";
 import { oml2dPlugin } from "vuepress-plugin-oh-my-live2d";
 import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension';
+
 // import { netabareSwitchPlugin } from 'vuepress-plugin-netabare-switch';
 
 const author = "灵感虚拟发现现实";
@@ -34,6 +35,7 @@ export default defineUserConfig({
    shouldPrefetch: false,
    
    plugins: [
+   
   //  netabareSwitchPlugin(),
     // removeHtmlExtensionPlugin(),
      appendDatePlugin(),
