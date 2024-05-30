@@ -53,7 +53,7 @@ export default hopeTheme({
       Whatsapp: "https://zzxxccvv.xyz",
       Youtube: "https://zzxxccvv.xyz",
       Zhihu: "https://zzxxccvv.xyz",
-      MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
+  
     },
   },
 
@@ -125,7 +125,12 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-    
+    git:{
+      // 配置项
+      createdTime:true,
+      updatedTime:true,
+      contributors:true,
+    },
     watermark:{
       enabled:false,
     },
