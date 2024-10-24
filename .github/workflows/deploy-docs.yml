@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -13,36 +12,35 @@ jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 检出代码
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # if your docs needs submodules, uncomment the following line
+          # 如果你的文档需要子模块，取消注释下一行
           submodules: true
 
-
-
-      - name: Setup Node.js
+      - name: 设置 Node.js 环境
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-      - name: Install Deps
+      - name: 安装依赖
         run: |
-          corepack enable
+          
           npm ci
 
-      - name: Build Docs
+      - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
+        run: |
           npm run docs:build
-          > src/.vuepress/dist/.nojekyll
+          touch src/.vuepress/dist/.nojekyll
 
-      - name: Deploy Docs
+      - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # Deploy Docs
+          # 部署到 gh-pages 分支
           branch: gh-pages
+          # 指定要部署的目录
           folder: src/.vuepress/dist
