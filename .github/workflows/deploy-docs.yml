@@ -29,6 +29,11 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: 安装特定版本的 npm
+        run: |
+          npm install -g npm@8
+          npm --version
+
       - name: 安装依赖
         run: npm i
 
