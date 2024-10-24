@@ -31,11 +31,13 @@ jobs:
 
       - name: 安装特定版本的 npm
         run: |
-          npm install -g npm@8
+          npm install -g npm@10
           npm --version
 
       - name: 安装依赖
-        run: npm i
+        run: |
+          corepack enable
+          npm i
 
       - name: 构建文档
         env:
