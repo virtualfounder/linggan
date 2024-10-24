@@ -12,4 +12,3 @@ blog/.vuepress/dist/
 *.png
 *.pdf
 
-package-lock.json
