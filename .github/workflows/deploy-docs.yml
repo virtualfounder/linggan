@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        uses: npm/action-setup@v4
         with:
           run_install: true
 
@@ -24,12 +24,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+          cache: npm
 
       - name: Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm run build:vite
+        run: npm run build:vite
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
